@@ -1,3 +1,5 @@
+const cards = document.querySelector(".cards");
+
 const getProducts = async () => {
   const url = "https://fakestoreapi.com/products";
   const response = await fetch(url);
@@ -13,6 +15,6 @@ const getProducts = async () => {
     <p class="price">${result.price}$</p>
   </div>`;
   });
-  console.log(results);
+  cards.innerHTML = results;
 };
 getProducts();

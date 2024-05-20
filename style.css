@@ -1,5 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-boxs;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
 }

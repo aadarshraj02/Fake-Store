@@ -7,7 +7,7 @@ const getProducts = async () => {
   //   console.log(data);
   let results = "";
   data.map((result) => {
-    results = `<div class="card">
+    results += `<div class="card">
     <h1 class="title">${result.title}</h1>
     <img class="images" src=${result.image} alt="img" />
     <p>${result.description}</p>
